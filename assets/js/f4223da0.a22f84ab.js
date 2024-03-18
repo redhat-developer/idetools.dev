@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkidetools_dev=self.webpackChunkidetools_dev||[]).push([[4083],{2348:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/idetools.dev/blog/tags/hola","allTagsPath":"/idetools.dev/blog/tags","count":1,"unlisted":false}')}}]);

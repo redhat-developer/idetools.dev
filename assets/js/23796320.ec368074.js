@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkidetools_dev=self.webpackChunkidetools_dev||[]).push([[6805],{5250:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/idetools.dev/blog/tags/facebook","allTagsPath":"/idetools.dev/blog/tags","count":1,"unlisted":false}')}}]);
