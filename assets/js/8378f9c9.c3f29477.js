@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkidetools_dev=self.webpackChunkidetools_dev||[]).push([[3986],{2989:e=>{e.exports=JSON.parse('{"permalink":"/idetools.dev/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
