@@ -1,0 +1,8 @@
+{
+  "label": "Languages",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Docs for language related plugins"
+  }
+}

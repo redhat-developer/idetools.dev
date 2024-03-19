@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 996px) {
@@ -17,7 +19,8 @@
 }
 
 .buttons {
-  display: flex;
   align-items: center;
   justify-content: center;
+  display: inline;
+  margin: 5px;
 }
