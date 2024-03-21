@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkidetools_dev=self.webpackChunkidetools_dev||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome [TEMPLATE]","permalink":"/idetools.dev/blog/welcome","unlisted":false}]}')}}]);
