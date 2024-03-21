@@ -34,7 +34,7 @@ function HomepageHeader() {
       </div>
       </span>
       <div>
-        <img src="/idetools.dev/img/RHD-logo.png" alt="Red Hat Developer Logo"></img>
+        <img src="/img/RHD-logo.png" alt="Red Hat Developer Logo"></img>
       </div>
     </header>
   );

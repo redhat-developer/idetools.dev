@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Red Hat IDE Extensions',
-  tagline: '*SOME DESCRIPTION HERE*',
+  //tagline: '*SOME DESCRIPTION HERE*',
   // Browser tab icon
   favicon: 'img/RHD-logo.png',
 
