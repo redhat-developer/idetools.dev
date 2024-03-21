@@ -11,13 +11,13 @@ const config = {
   title: 'Red Hat IDE Extensions',
   tagline: '*SOME DESCRIPTION HERE*',
   // Browser tab icon
-  favicon: 'img/redhat-developer.png',
+  favicon: 'img/RHD-logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/idetools.dev/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'redhat-developer',
@@ -63,7 +63,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           // Homepage logo
-          src: 'img/redhat-developer.png',
+          src: 'img/RHD-logo.png',
         },
         items: [
           {
