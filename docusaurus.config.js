@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Red Hat IDE Extensions',
-  //tagline: '*SOME DESCRIPTION HERE*',
+  tagline: "Visit one of the marketplaces below to download your desired extension and get started ",
   // Browser tab icon
   favicon: 'img/RHD-logo.png',
 
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/temp-social-card.jpg',
       navbar: {
         title: 'Red Hat IDE Extensions',
         logo: {

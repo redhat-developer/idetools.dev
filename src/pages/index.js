@@ -20,21 +20,25 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Read the Docs
+            to="https://marketplace.visualstudio.com/">
+            <img src="/img/visual-studio-code-icon.webp" alt="VSCode Logo"></img>
+            VSCode Marketplace
+
           </Link>
         </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/blog">
-            See the Blog
+            to="https://plugins.jetbrains.com/">
+            <img src="/img/jetbrains-logo.png" alt="JetBrains Logo"></img>
+            Jetbrains Marketplace
+
           </Link>
         </div>
       </div>
       </span>
       <div>
-        <img src="/img/RHD-logo.png" alt="Red Hat Developer Logo"></img>
+        <img src="/img/RHD-logo-old.png" alt="Red Hat Developer Logo"></img>
       </div>
     </header>
   );
