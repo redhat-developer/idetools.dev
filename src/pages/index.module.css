@@ -10,6 +10,8 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  background-color: var(--banner-background-colour);
+  color: var(--banner-font-colour);
 }
 
 @media screen and (max-width: 996px) {
@@ -21,7 +23,7 @@
 .buttons {
   align-items: center;
   justify-content: center;
-  display: inline;
+  display: inline-block;
   margin: 1em;
   text-align: center;
 }
@@ -30,4 +32,9 @@
   height: 1.5em;
   width: auto;
   margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.buttons div {
+  color: black;
 }

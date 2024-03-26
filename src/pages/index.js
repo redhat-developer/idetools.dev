@@ -21,8 +21,10 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://marketplace.visualstudio.com/publishers/redhat">
-            <img src="/img/visual-studio-code-icon.webp" alt="VSCode Logo"></img>
-            VSCode Marketplace
+            <div>
+              <img src="/img/visual-studio-code-icon.webp" alt="VSCode Logo"></img>
+              VSCode Marketplace
+            </div>
 
           </Link>
         </div>
@@ -30,8 +32,10 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://plugins.jetbrains.com/organizations/Red-Hat">
+            <div>
             <img src="/img/jetbrains-logo.png" alt="JetBrains Logo"></img>
             Jetbrains Marketplace
+            </div>
 
           </Link>
         </div>

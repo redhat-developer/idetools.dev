@@ -1,11 +1,40 @@
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
+  text-align: center;
   width: 100%;
+  background-color: var(--banner-background-colour);
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.leftColumn {
+  flex:45%;
+  padding-left: 5%;
+  padding-top: 2rem 0;
+  margin: 50px;
+  background-color: var(--background-colour-variant);
+  background-clip: content-box;
+}
+
+.rightColumn {
+  flex:45%;
+  padding-right: 5%;
+  margin: 50px;
+  background-color: var(--background-colour-variant);
+  background-clip: content-box;
+}
+
+.imgCol {
+  flex: 40%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  display: inline-block;
+}
+
+.figCaption {
+  display:block;
+  max-width: 15em;
+}
+
+a {
+  color: var(--banner-font-colour) !important;
 }
