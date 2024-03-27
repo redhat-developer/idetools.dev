@@ -22,5 +22,12 @@
   align-items: center;
   justify-content: center;
   display: inline;
-  margin: 5px;
+  margin: 1em;
+  text-align: center;
+}
+
+.buttons img {
+  height: 1.5em;
+  width: auto;
+  margin-right: 10px;
 }
