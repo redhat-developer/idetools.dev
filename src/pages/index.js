@@ -20,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://marketplace.visualstudio.com/">
+            to="https://marketplace.visualstudio.com/publishers/redhat">
             <img src="/img/visual-studio-code-icon.webp" alt="VSCode Logo"></img>
             VSCode Marketplace
 
@@ -29,7 +29,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://plugins.jetbrains.com/">
+            to="https://plugins.jetbrains.com/organizations/Red-Hat">
             <img src="/img/jetbrains-logo.png" alt="JetBrains Logo"></img>
             Jetbrains Marketplace
 
