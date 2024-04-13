@@ -11,7 +11,7 @@ const config = {
   title: 'Red Hat IDE Extensions',
   tagline: "Visit one of the marketplaces below to download your desired extension and get started",
   // Browser tab icon
-  favicon: 'img/RHD-logo.png',
+  favicon: 'img/rhd-tab.png',
 
   // Set the production url of your site here
   url: 'https://idetools.dev',
