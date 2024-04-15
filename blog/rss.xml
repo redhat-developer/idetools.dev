@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Red Hat IDE Extensions Blog</title>
-        <link>https://idetools.dev/blog</link>
+        <link>https://idetools.dev/blog/</link>
         <description>Red Hat IDE Extensions Blog</description>
         <lastBuildDate>Tue, 19 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome [TEMPLATE]]]></title>
-            <link>https://idetools.dev/blog/welcome</link>
-            <guid>https://idetools.dev/blog/welcome</guid>
+            <link>https://idetools.dev/blog/welcome/</link>
+            <guid>https://idetools.dev/blog/welcome/</guid>
             <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[(FROM TEMPLATE BLOG POST)]]></description>
             <content:encoded><![CDATA[<p>(FROM TEMPLATE BLOG POST)</p>
