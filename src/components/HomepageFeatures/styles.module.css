@@ -1,8 +1,31 @@
 .features {
-  display: flex;
   text-align: center;
   width: 100%;
   background-color: var(--banner-background-colour);
+}
+
+.extensionList {
+  display: flex;
+}
+
+.vscodeJava {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--background-colour-variant);
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.header {
+  flex: 100%;
+}
+
+.col {
+  flex:45%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2em;
 }
 
 .leftColumn {
@@ -35,6 +58,11 @@
   max-width: 15em;
 }
 
-a {
+.imgCol a {
   color: var(--banner-font-colour) !important;
+}
+
+h2 {
+  padding-top: 0.5em;
+  font-weight: normal;
 }
