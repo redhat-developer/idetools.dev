@@ -62,6 +62,14 @@
   display: inline-block;
 }
 
+.imgColThree {
+  flex: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  display: inline-block;
+}
+
 .figCaption {
   display:block;
   max-width: 15em;
