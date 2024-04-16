@@ -17,6 +17,15 @@
   padding-bottom: 4em;
 }
 
+.openshift {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--banner-background-colour);
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
 .header {
   flex: 100%;
 }

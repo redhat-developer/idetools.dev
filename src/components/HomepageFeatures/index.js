@@ -102,6 +102,24 @@ export default function HomepageFeatures() {
             </span>
           </div>
       </section>
+      <section className={styles.openshift}>
+          <div className={styles.header}>
+          <h1>Harness the full potential of OpenShift and Kubernetes <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector">directly within VS Code</a></h1>
+          </div>
+          <div className={styles.col}>
+            <img src='img/loginCluster.gif'></img>
+            <span>
+              <h2>Offers OpenShift cluster provisioning without leaving the IDE</h2>
+              <p></p>
+            </span>
+          </div>
+          <div className={styles.col}>
+            <img src='img/create-component-demo.gif'></img>
+            <span>
+              <h2>Allows for easy OpenShift application development</h2>
+            </span>
+          </div>
+      </section>
     </section>
   );
 }
