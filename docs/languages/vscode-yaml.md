@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# VSCode YAML
+# VS Code YAML
 
 [Visit the GitHub](https://github.com/redhat-developer/vscode-yaml)

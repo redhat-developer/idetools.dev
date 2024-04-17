@@ -22,8 +22,8 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="https://marketplace.visualstudio.com/publishers/redhat">
             <div>
-              <img src="/img/visual-studio-code-icon.webp" alt="VSCode Logo"></img>
-              VSCode Marketplace
+              <img src="/img/visual-studio-code-icon.webp" alt="VS Code Logo"></img>
+              VS Code Marketplace
             </div>
 
           </Link>
