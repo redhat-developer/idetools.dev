@@ -113,7 +113,7 @@ In the Devfile Registries view, there is an action to `Open Registry View` which
 
 ### **Install Helm Charts on cluster**
 
-Browse the catalog to discover and install [Helm Charts](https://helm.sh/) on cluster, directly from VSCode.
+Browse the catalog to discover and install [Helm Charts](https://helm.sh/) on cluster, directly from VS Code.
 
 ![ screencast ](https://raw.githubusercontent.com/redhat-developer/vscode-openshift-tools/main/images/walkthrough/helm.gif)
 
