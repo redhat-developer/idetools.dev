@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Openshift Toolkit
+title: OpenShift Toolkit
 ---
 
 <div align-items="center">
