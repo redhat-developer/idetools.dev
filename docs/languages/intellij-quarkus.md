@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Intellij Quarkus
+# IntelliJ Quarkus
 
 [Visit the GitHub](https://github.com/redhat-developer/intellij-quarkus)

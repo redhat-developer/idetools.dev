@@ -36,7 +36,7 @@ export default function HomepageFeatures() {
           </div>
           <div className={styles.imgCol}>
             <a href="https://plugins.jetbrains.com/plugin/13234-quarkus-tools"><img src='img/intellij-quarkus.png' height='128em'></img></a>
-            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/intellij-quarkus">Intellij Quarkus</a></b></figcaption>
+            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/intellij-quarkus">IntelliJ Quarkus</a></b></figcaption>
           </div>
           </span>
         </div>
@@ -50,13 +50,13 @@ export default function HomepageFeatures() {
           </div>
           <div className={styles.imgCol}>
             <a href="https://plugins.jetbrains.com/plugin/15921-kubernetes-by-red-hat"><img src='img/kubernetes.png' height='128em'></img></a>
-            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/intellij-kubernetes">Intellij Kubernetes</a></b></figcaption>
+            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/intellij-kubernetes">IntelliJ Kubernetes</a></b></figcaption>
           </div>
           </span>
           <span>
           <div className={styles.imgCol}>
           <a href="https://plugins.jetbrains.com/plugin/12030-openshift-toolkit-by-red-hat"><img src='img/vscode-openshift.png' height='128em'></img></a>
-            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/intellij-openshift-connector">Intellij OpenShift</a></b></figcaption>
+            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/intellij-openshift-connector">IntelliJ OpenShift</a></b></figcaption>
           </div>
           <div className={styles.imgCol}>
             <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-knative"><img src='img/knative.png' height='128em'></img></a>
