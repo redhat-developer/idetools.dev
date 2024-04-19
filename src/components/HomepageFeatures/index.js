@@ -76,7 +76,7 @@ export default function HomepageFeatures() {
           </div>
         </div>
       </section>
-      <section className={styles.vscodeJava}>
+      <section className={styles.sectionA}>
           <div className={styles.header}>
             <h1>Coding in Java? Take advantage of Visual Studio Code's <a href="https://marketplace.visualstudio.com/items?itemName=redhat.java">most popular Java extension</a></h1>
           </div>
@@ -106,7 +106,7 @@ export default function HomepageFeatures() {
             </span>
           </div>
       </section>
-      <section className={styles.openshift}>
+      <section className={styles.sectionB}>
           <div className={styles.header}>
           <h1>Harness the full potential of OpenShift and Kubernetes <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector">directly within VS Code</a></h1>
           </div>
@@ -123,6 +123,17 @@ export default function HomepageFeatures() {
               <h2>Allows for easy OpenShift application development</h2>
             </span>
           </div>
+      </section>
+      <section className={styles.sectionA}>
+      <div className={styles.feedbackColOne}>
+        <span>
+          <h1>We want to hear from you!</h1>
+        </span>
+          <img width='100%' src='img/RH-Talk_bubble_from_right-minispot-Illustration-Red-2023_10-ryawilli-RGB.Large-square.png'></img>
+      </div>
+      <div className={styles.feedbackColTwo}>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeX9CZIMIxWr6-SG0Geer0aigLNvRFledGGP4v1lt66oybYsQ/viewform?embedded=true" width="100%" height="100%">Loading…</iframe>
+      </div>
       </section>
     </section>
   );
