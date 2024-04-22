@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Language support for Java ™ for Visual Studio Code
 
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/redhat.java?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=redhat.java)
