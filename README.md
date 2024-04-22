@@ -14,12 +14,18 @@ In order to make changes or additions to the website, the following software mus
 
 *   [Node.js](https://nodejs.org/) v18.0 or higher
 
+Install the dependencies by running:
+
+```bash
+$ npm install
+```
+
 ### Creating a Blog Post
 
 To create a blog post, simply add a Markdown file to the `blog` directory. If you wish to include images in your blog post, you can also create a blog post folder to co-locate the images. The filename should conform to the following naming convention so that the blog post date can be extracted:
 
-* yyyy-mm-dd-TITLE.md OR
-* yyyy-mm-dd-FOLDERNAME/TITLE.md
+* `yyyy-mm-dd-TITLE.md` OR
+* `yyyy-mm-dd-FOLDERNAME/TITLE.md`
 
 Each blog post should contain the following front matter:
 
@@ -41,20 +47,20 @@ Visit [Docusaurus' blog documentation](https://docusaurus.io/docs/blog) for more
 
 It is important to build and view the website locally before contributing to ensure that your changes are as desired.
 
-In order to start a local development server that opens in a browser window at `http://localhost:3000/`, run
+In order to start a local development server that opens in a browser window at `http://localhost:3000/`, run:
 
-```
+```bash
 $ npm run start
 ```
 
-With this command active, changes will be built and reflected live. If you wish to simply build your changes, run
+With this command active, changes will be built and reflected live. If you wish to simply build your changes, run:
 
-```
+```bash
 $ npm run build
 ```
 
-To load and view your new build, run
+To load and view your new build, run:
 
-```
+```bash
 $ npm run serve
 ```
