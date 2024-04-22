@@ -1,41 +1,60 @@
-# Website
+# Red Hat IDE Extensions Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is home to the documentation for extensions managed by Red Hat's IDE Extensions team, along with its latest blog posts. 
 
-### Installation
+Built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-```
-$ yarn
-```
+## How to Contribute
 
-### Local Development
+Begin by forking and cloning [this repository](https://github.com/redhat-developer/idetools.dev).
 
-```
-$ yarn start
-```
+### Requirements
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+In order to make changes or additions to the website, the following software must be installed:
 
-### Build
+*   [Node.js](https://nodejs.org/) v18.0 or higher
 
-```
-$ yarn build
-```
+### Creating a Blog Post
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+To create a blog post, simply add a Markdown file to the `blog` directory. If you wish to include images in your blog post, you can also create a blog post folder to co-locate the images. The filename should conform to the following naming convention so that the blog post date can be extracted:
 
-### Deployment
+* yyyy-mm-dd-TITLE.md OR
+* yyyy-mm-dd-FOLDERNAME/TITLE.md
 
-Using SSH:
+Each blog post should contain the following front matter:
 
 ```
-$ USE_SSH=true yarn deploy
+---
+slug: {Desired blog post URL, e.g. my-blog-post}
+title: {Insert desired title to be displayed}
+authors: [{Author name as defined in authors.yml}]
+tags: [{Desired tags, comma-separated}]
+---
 ```
 
-Not using SSH:
+Be sure to add yourself to the list of authors in [authors.yml](./blog/authors.yml).
+
+Visit [Docusaurus' blog documentation](https://docusaurus.io/docs/blog) for more information.
+
+
+### Testing Locally
+
+It is important to build and view the website locally before contributing to ensure that your changes are as desired.
+
+In order to start a local development server that opens in a browser window at `http://localhost:3000/`, run
 
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+$ npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+With this command active, changes will be built and reflected live. If you wish to simply build your changes, run
+
+```
+$ npm run build
+```
+
+To load and view your new build, run
+
+```
+$ npm run serve
+```
