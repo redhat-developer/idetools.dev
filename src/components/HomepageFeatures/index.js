@@ -71,7 +71,7 @@ export default function HomepageFeatures() {
             <h1>Plus More...</h1>
             <p></p>
             <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-rsp-ui"><img src='img/rsp.png' height='128em'></img></a>
-            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/vscode-rsp-ui">VS Code RSP</a></b></figcaption>
+            <figcaption position='absolute'><b><a href="https://github.com/redhat-developer/vscode-rsp-ui">Server Tooling</a></b></figcaption>
             <p></p>
           </div>
         </div>
