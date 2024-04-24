@@ -31,14 +31,14 @@
 }
 
 .col {
-  flex:45%;
+  flex: 45%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   padding-top: 2em;
 }
 
 .leftColumn {
-  flex:45%;
+  flex: 45%;
   padding-left: 7%;
   padding-right: 3%;
   padding-bottom: 4em;
@@ -47,7 +47,7 @@
 }
 
 .rightColumn {
-  flex:45%;
+  flex: 45%;
   padding-right: 7%;
   padding-left: 3%;
   padding-bottom: 4em;
@@ -84,7 +84,7 @@
 }
 
 .figCaption {
-  display:block;
+  display: block;
   max-width: 15em;
 }
 
@@ -98,13 +98,13 @@ h2 {
 }
 
 .feedbackColOne {
-  flex:25%;
+  flex: 25%;
   padding-left: 5%;
   padding-top: 2em;
 }
 
 .feedbackColTwo {
-  flex:65%;
+  flex: 65%;
   padding-right: 5%;
   padding-top: 2em;
 }
