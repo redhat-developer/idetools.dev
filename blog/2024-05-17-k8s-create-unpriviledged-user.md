@@ -191,3 +191,10 @@ make sure to delete it.
 Also, make sure to remove the new user and context that you created from your `~/.kube/config`,
 since they will no longer exist when you delete the cluster.
 
+:::info[Check out our developer tools]
+If you liked this blog post,
+make sure to check out [VS Code OpenShift Toolkit](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
+or [Intellij OpenShift Toolkit](https://plugins.jetbrains.com/plugin/12030-openshift-toolkit-by-red-hat),
+which enable you to interact with your Kubernetes or OpenShift cluster right from your IDE.
+:::
+
