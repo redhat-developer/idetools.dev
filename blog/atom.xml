@@ -90,7 +90,11 @@ for more information on setting up the permissions for the account.</p>
 <p>Once you are done with the cluster,
 make sure to delete it.
 Also, make sure to remove the new user and context that you created from your <code>~/.kube/config</code>,
-since they will no longer exist when you delete the cluster.</p>]]></content>
+since they will no longer exist when you delete the cluster.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Check out our developer tools</div><div class="admonitionContent_BuS1"><p>If you liked this blog post,
+make sure to check out <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector" target="_blank" rel="noopener noreferrer">VS Code OpenShift Toolkit</a>
+or <a href="https://plugins.jetbrains.com/plugin/12030-openshift-toolkit-by-red-hat" target="_blank" rel="noopener noreferrer">Intellij OpenShift Toolkit</a>,
+which enable you to interact with your Kubernetes or OpenShift cluster right from your IDE.</p></div></div>]]></content>
         <author>
             <name>David Thompson</name>
             <uri>https://github.com/datho7561</uri>
