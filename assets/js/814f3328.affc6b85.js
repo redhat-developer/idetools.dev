@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkidetools_dev=self.webpackChunkidetools_dev||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Create a Test Kubernetes Cluster With an Unprivileged User","permalink":"/blog/k8s-create-unprivileged-user","unlisted":false}]}')}}]);
