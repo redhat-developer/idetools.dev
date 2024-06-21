@@ -5,7 +5,7 @@ authors: [angelozerr, fbricon]
 tags: [lsp, intellij, lsp4ij]
 ---
 
-[LSP4IJ](https://plugins.jetbrains.com/plugin/23257-lsp4ij) is a new, free and open-source LSP client for JetBrains-based IDEs, compatible with both **community** and enterprise flavors.
+[LSP4IJ](https://plugins.jetbrains.com/plugin/23257-lsp4ij) is a new, free and open-source Language Server Protocol (LSP) client for JetBrains-based IDEs, compatible with both **community** and enterprise flavors.
 
 It provides outstanding features such as:
 - The ability to [configure LSP servers without developing a new plug-in](https://github.com/redhat-developer/lsp4ij/blob/main/docs/UserDefinedLanguageServer.md) (restricted to stdio-based connections for the moment).
@@ -16,9 +16,9 @@ The client already supports a significant amount of [features](https://github.co
 
 ## Why LSP4IJ?
 
-The Devtools team at Red Hat has been working on free and open-source language servers for *many* years. We have offered Language Server Protocol (LSP) implementations for [Java](https://github.com/eclipse/eclipse.jdt.ls/), [YAML](https://github.com/redhat-developer/yaml-language-server), [XML](https://github.com/eclipse/lemminx), [MicroProfile](https://github.com/eclipse/lsp4mp), [Quarkus](https://github.com/redhat-developer/quarkus-ls) and [Qute](https://github.com/redhat-developer/quarkus-ls/tree/master/qute.ls), that were integrated into Visual Studio Code via several extensions. Some of those language servers have also been integrated into Eclipse IDE.
+The Devtools team at Red Hat has been working on free and open-source language servers for *many* years. We have offered LSP implementations for [Java](https://github.com/eclipse/eclipse.jdt.ls/), [YAML](https://github.com/redhat-developer/yaml-language-server), [XML](https://github.com/eclipse/lemminx), [MicroProfile](https://github.com/eclipse/lsp4mp), [Quarkus](https://github.com/redhat-developer/quarkus-ls) and [Qute](https://github.com/redhat-developer/quarkus-ls/tree/master/qute.ls), that were integrated into Visual Studio Code via several extensions. Some of those language servers have also been integrated into Eclipse IDE.
 
-By 2019, JetBrains already provided some Quarkus support in IntelliJ IDEA Ultimate to their paid customers. But when Red Hat wanted to bring the same awesome Quarkus tools VS Code already had, to the wider IntelliJ IDEA Community, an LSP client for IntelliJ was needed.
+By 2019, JetBrains already provided some [Quarkus](https://quarkus.io/) support in IntelliJ IDEA Ultimate to their paid customers. But when Red Hat wanted to bring the same awesome [Quarkus tools](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) VS Code already had, to the wider IntelliJ IDEA Community, an LSP client for IntelliJ was needed.
 
 At that time, we evaluated [Ballerina's lsp4intellij library](https://github.com/ballerina-platform/lsp4intellij), which provides advanced LSP support but has the following limitations:
  * Quarkus / Qute language servers have a complicated mechanism, delegating parts of the work to the IDE's Java support (JDT for Eclipse and Psi for IntelliJ), to avoid parsing Java classes twice (once by the language server, another the built-in Java support). We encountered numerous freezes.
@@ -130,7 +130,14 @@ Note that you can use [macros in your commands](https://github.com/redhat-develo
 
 In the `Mappings > File name patterns` tab, associate `*.ts`, `*.tsx`, `*.jsx` files to the language server as shown below :
 
-![](./assets/lsp4ij-announcement/TypeScriptServerDialog_FileNamePatterns.png)
+| File Name Pattern |    Language Id  |
+|-------------------|-----------------|
+| *.jsx             | javascriptreact |
+| *.ts              | typescript      |
+| *.tsx             | typescriptreact |
+
+![File name patterns](./assets/lsp4ij-announcement/TypeScriptServerDialog_FileNamePatterns.png)
+
 
 The value in the `Language Id` column must be one of the language identifiers defined in the [LSP specification](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocumentItem).
 
