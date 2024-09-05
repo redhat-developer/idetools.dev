@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://idetools.dev/blog/</id>
     <title>Red Hat IDE Extensions Blog</title>
-    <updated>2024-08-29T00:00:00.000Z</updated>
+    <updated>2024-09-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://idetools.dev/blog/"/>
     <subtitle>Red Hat IDE Extensions Blog</subtitle>
     <icon>https://idetools.dev/img/rhd-tab.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Supporting dynamic code actions in VS Code Java]]></title>
+        <id>https://idetools.dev/blog/dynamic-proposals/</id>
+        <link href="https://idetools.dev/blog/dynamic-proposals/"/>
+        <updated>2024-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm definitely not the first developer to say that quick fix suggestions make my life ten times easier. With dynamic proposals for code actions, my life gets even easier.]]></summary>
+        <content type="html"><![CDATA[<p>I'm definitely not the first developer to say that quick fix suggestions make my life ten times easier. With dynamic proposals for code actions, my life gets even easier.</p>
+<p>Many quick fixes have multiple suggestions for text replacement. In the Eclipse IDE, these are displayed in a dropdown selection menu. Take a look at the type mismatch quick fix below, for example:</p>
+<p><img decoding="async" loading="lazy" alt="Example of linked proposal in Eclipse" src="https://idetools.dev/assets/images/linked-proposal-eclipse-af0e7b6cfa9c041b8f66724029f6e4a8.gif" width="501" height="199" class="img_ev3q"></p>
+<p>Very helpful, right? Now let's take a look at how VS Code handles the same quick fix:</p>
+<p><img decoding="async" loading="lazy" alt="Example of old proposal in VS Code" src="https://idetools.dev/assets/images/old-vscode-proposal-7c6e83ca2ad8f9e1aa5274eec8e4dc95.gif" width="687" height="200" class="img_ev3q"></p>
+<p>No dropdown, no options, just the first item from Eclipse's list inserted statically. Definitely less helpful.</p>
+<p>Why is this? Well, code actions in Eclipse support dropdown choices, as well as placeholders, which enable dynamic text insertion/replacement. Code actions in VS Code, on the other hand, do not. The closest we can get to simulating this behaviour in VS Code is by using snippets, which similarly have choices/placeholders. Unfortunately, we couldn't support snippet strings in code actions without violating the <a href="https://microsoft.github.io/language-server-protocol/" target="_blank" rel="noopener noreferrer">Language Server Protocol</a> specification... until now!</p>
+<p>With the introduction and support of SnippetTextEdit in <a href="https://microsoft.github.io/language-server-protocol/specifications/lsp/3.18/specification/#snippetTextEdit" target="_blank" rel="noopener noreferrer">LSP</a> and <a href="https://code.visualstudio.com/api/references/vscode-api#SnippetTextEdit" target="_blank" rel="noopener noreferrer">VS Code</a>, dynamic code actions will now be supported in the upcoming release of vscode-java 1.35.0! If you can't wait, they're also available now in pre-release.</p>
+<p>Check out the relevant <a href="https://github.com/redhat-developer/vscode-java/pull/3730" target="_blank" rel="noopener noreferrer">PR</a> in <a href="https://github.com/redhat-developer/vscode-java" target="_blank" rel="noopener noreferrer">vscode-java</a> and its supporting <a href="https://github.com/eclipse-jdtls/eclipse.jdt.ls/pull/3229" target="_blank" rel="noopener noreferrer">PR</a> in <a href="https://github.com/eclipse-jdtls/eclipse.jdt.ls" target="_blank" rel="noopener noreferrer">JDT-LS</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-point">The Point<a href="https://idetools.dev/blog/dynamic-proposals/#the-point" class="hash-link" aria-label="Direct link to The Point" title="Direct link to The Point">​</a></h2>
+<p>Code actions, which were once completely static, now prompt you to alter relevant sections of text and give you multiple suggestions for insertion and replacement.</p>
+<p><img decoding="async" loading="lazy" alt="Example of dynamic proposal in VS Code" src="https://idetools.dev/assets/images/dynamic-proposal-vscode-e6885afa991bc07f7b89c785c0d30dec.gif" width="1234" height="449" class="img_ev3q"></p>
+<p>Pretty cool.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="limitations">Limitations<a href="https://idetools.dev/blog/dynamic-proposals/#limitations" class="hash-link" aria-label="Direct link to Limitations" title="Direct link to Limitations">​</a></h2>
+<p>This improvement doesn't come without a few minor setbacks.</p>
+<p>For code actions that propose new types, the import for the selected type cannot be automatically resolved. Instead, after applying the code action and selecting the new type from the dropdown, the user has to either manually import the type, apply the subsequent quick fix suggestion to import the type, or issue the 'Organize Imports' command (<code>Shift</code> + <code>Alt</code> + <code>O</code>).</p>
+<p>Additionally, any code action that involves multi-line text insertion will see additional indentation on all lines excluding the first one. You can see this happen in the above example. This is due to a <a href="https://github.com/microsoft/vscode/issues/63129" target="_blank" rel="noopener noreferrer">bug</a> in VS Code that automatically adds indentation to snippet strings.</p>]]></content>
+        <author>
+            <name>Hope Hadfield</name>
+            <uri>https://github.com/hopehadfield</uri>
+        </author>
+        <category label="vscode" term="vscode"/>
+        <category label="java" term="java"/>
+        <category label="snippet" term="snippet"/>
+        <category label="code actions" term="code actions"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dropping support of older Java releases in vscode-java]]></title>
         <id>https://idetools.dev/blog/java-1_8-compliance/</id>
